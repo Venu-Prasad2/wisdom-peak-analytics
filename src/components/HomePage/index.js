@@ -39,6 +39,7 @@ const HomePage = () => {
       const response = await fetch(apiUrl, options);
       if (response.ok) {
         const data = await response.json();
+        console.log(data);
         const updatedUsersList = data.map((user) => ({
           id: user.id,
           name: user.name,
