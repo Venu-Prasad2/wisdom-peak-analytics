@@ -1,10 +1,5 @@
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    
-  }
+
   
   .bg {
     padding: 20px;
@@ -14,7 +9,7 @@ body {
   .bg-black {
     background-color: #000;
     
-    height: 100vh;
+    
   }
   
   .bg-light {
