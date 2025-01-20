@@ -19,22 +19,18 @@ This project is a
 
 ## Folder Structure
 wisdom-peak-analytics/
-│
 ├── frontend/
-│   ├── public/               
-│   ├── src/                 
-│   │   ├── App.js            
-│   │   ├── HomePage.js
-|   |   |     ├── index.js
-|   |   |     ├── index.css
-│   │   ├── EachUser.js
-|   |   |    ├── index.js
-|   |   |    ├── index.js
-|   |   ├── UserDetails.js
-|   |   |    ├── index.js
-│   │        ├── index.css         
-│   ├── package.json         
-└── README.md                 
+│   ├── public/                    # Static files like images, index.html, etc.
+│   ├── src/                       
+│   │   ├── App.js                 # Main App component
+│   │   ├── HomePage.js            # Home page component
+│   │   ├── EachUser.js            # Individual user display component
+│   │   ├── UserDetails.js         # Component for displaying user details (if applicable)
+│   │   ├── index.js               # Entry point for React app
+│   │   ├── index.css              # Global styles
+│   ├── package.json               # Project dependencies and scripts
+└── README.md                      # Project documentation
+                
 
 
 
