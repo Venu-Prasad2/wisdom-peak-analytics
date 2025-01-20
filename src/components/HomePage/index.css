@@ -1,0 +1,174 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    
+  }
+  
+  .bg {
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+  }
+  .bg-black {
+    background-color: #000;
+    
+    height: 100vh;
+  }
+  
+  .bg-light {
+    background-color: #fff;
+    
+    height: 100vh;
+  }
+  
+  
+  .search-sort-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    position: relative;
+    margin-left: 0px;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding-right: 30px; 
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #555555;
+    cursor: pointer;
+  }
+  
+  
+  .sort-dropdown {
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+
+  .users-list {
+    display: flex;
+    flex-direction: column; 
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .users-list {
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      padding: 20px; 
+    }
+  }
+ 
+  
+  .user-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    margin: 10px;
+    list-style-type: none;
+   width: 300px;
+  }
+  
+ 
+  
+  .user-item {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .user-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+ 
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  
+  .error-view-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .failure-img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .failure-heading-text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .failure-description {
+    color: #555;
+    margin: 0;
+  }
+  .icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 14px;
+    font-size: 25px;
+    
+  }
+  .no-users-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .no-users-img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .head-black {
+    color: #ffffff; 
+    margin-left: 50px;
+  }
+  
+  .head-light {
+    color: black;
+    margin-left: 50px; 
+  }
+  
+  
+
+  

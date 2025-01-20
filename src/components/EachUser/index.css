@@ -1,0 +1,63 @@
+
+.user-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    list-style-type: none;
+    width: 300px;
+  }
+  .dark-card {
+    background-color: #ffffff; 
+    color: #edf2f7; 
+  }
+
+  .light-card {
+    background-color: #2d3748; 
+    color: #2d3748; 
+  }  
+
+  .user-item {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 12px;
+    border-radius: 8px;
+    
+  } 
+  
+  
+  
+ .each-head{
+    font-size: 32px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 8px;
+ }
+  
+.each-email{
+    font-weight: bold;   
+    color: #2c3e50; 
+} 
+.each-city {
+    font-weight: bold;   
+    color: #2c3e50;      
+  }
+
+  .dark-card {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .light-card {
+    background-color: #ffffff;
+    color: black;
+  }
+
+
+  
+ 
+  
+    
+  

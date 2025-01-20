@@ -1,0 +1,128 @@
+
+.user-details-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  
+  .user-details-container p {
+    font-size: 1rem;
+    margin: 8px 0;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .user-details-container a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .user-details-container a:hover {
+    text-decoration: underline;
+  }
+
+  .user-details-container button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+ 
+  .error-view-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .failure-img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .failure-heading-text {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .failure-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+  .name-profile {
+    display: flex;
+    flex-direction: column; 
+    
+    margin-bottom: 20px;
+  }
+  
+  .profile-icon {
+    font-size: 80px;
+    color: #3498db;
+    margin-right: 15px;  
+  }
+  .details-head{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+  }
+  .email{
+    display: flex;          
+    align-items: center;    
+    margin-bottom: 10px;
+  } 
+  .phone{
+    display: flex;          
+    align-items: center;    
+    margin-bottom: 10px;
+    
+  } 
+  .company{
+    display: flex;          
+    align-items: center;    
+    margin-bottom: 10px;
+  } 
+  .website {
+    display: flex;          
+    align-items: center;    
+    margin-bottom: 10px;
+  }
+  .u-icon{
+    margin-right: 5px;
+  }
+
+  
